@@ -1,0 +1,42 @@
+.navbar{
+display: flex;
+background-color: white;
+width: 95%;
+height: 80px;
+align-items: center;
+border-bottom: 3px lightgrey solid;
+justify-content: space-between;
+margin-bottom: 32px;
+
+}
+
+.navbar ul{
+	display: flex;
+	justify-content: right;
+	color: darkgrey;
+	font-size: 20px;
+}
+
+.navbar p {
+	font-family: arial;
+}
+
+.navbar img {
+width: 22%;
+}
+
+li{
+list-style-type: none;
+padding-left: 20px;
+font-family: arial;
+font-size: 18px;
+}
+
+.logo-nav{
+display: flex;
+font-size: 27px;
+}
+
+.logo-nav a{
+text-decoration: none;
+}

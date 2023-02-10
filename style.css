@@ -1,0 +1,9 @@
+@import url("component/navbar.css");
+@import url("component/corps.css");
+@import url("component/banner.css");
+@import url("component/product.css");
+@import url("component/footer.css");
+
+body{
+  margin: 0;
+}

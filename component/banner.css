@@ -1,0 +1,32 @@
+.banner{
+height: 60vh;
+background-image: url("../images/voiture.png");
+border-radius: 20px;
+margin-left: 20px;
+margin-right: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+align-content: space-between;
+}
+.banner p {
+display: flex;
+color: white;
+font-size: 40px;
+font-family: arial;
+text-shadow: 0px 1px 4px black;
+margin: 0;
+width: fit-content;
+}
+
+.barre{
+display: flex;
+justify-content: center;
+margin-top:100px;
+}
+
+input{
+width: 50%;
+height: 30px;
+border-radius: 10px;
+}

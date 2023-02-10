@@ -1,0 +1,76 @@
+.title{
+display: flex;
+justify-content: space-around;
+font-family: arial;
+color: darkgrey;
+padding: 20px;
+font-size: 20px;
+}
+
+.products {
+display: flex;
+flex-direction: column;
+background: white;                         /* White background */
+margin: 0px auto;                             /* Internal space */
+border-radius: 10px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+width: 70%;
+flex-basis: 270px;
+flex-grow: 1;
+margin-bottom: 70px;
+
+}
+
+.product {
+display: flex;
+margin: 10px;
+border-radius: 10px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.product img {
+width: 15%;
+padding: 10px;
+padding-left: 20px;
+}
+
+.text{
+margin-left: 15px;
+font-family: arial;
+}
+
+.text h3{
+font-size: 25px;
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+}
+
+#jeminscris{
+background-color: #0098E2;
+border-radius: 15px;
+border: none;
+display: flex;
+justify-content: center;
+padding: 15px;
+margin-bottom: 60px;
+font-family: arial;
+font-size: 15px;
+}
+
+button a{
+text-decoration: none;
+color: black;
+}
+
+.presentation p{
+display: flex;
+margin: 10px;
+font-size: 18px;
+font-family: arial;
+text-align: center;
+padding-left: 30px;
+padding-right: 30px;
+}
